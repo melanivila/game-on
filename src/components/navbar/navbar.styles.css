@@ -1,0 +1,51 @@
+.bg-color{
+    background-color: #330D71;    
+}
+
+.fontSize{
+    font-size:1.08em;
+}
+
+.profile-button {        
+    height: 25px;
+}
+
+.link-style {
+    text-decoration: none;
+    color: white !important;
+}
+
+.link-style:hover{
+    background-color: #240a4e !important;
+}
+
+.nav-link{
+    color:white !important;
+}
+
+.dropdown-menu{
+    background-color: #330D71 !important;
+    border: none !important;
+}
+
+.profile-style {
+    text-decoration: none;
+}
+
+.logo-style {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.upcoming-btn {
+    background: #330D71;
+    border: 2px solid #330D71;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255,255,255,.55); 
+}
+
+.container-fluid{
+    justify-content: flex-end !important;
+    gap: 1em
+}

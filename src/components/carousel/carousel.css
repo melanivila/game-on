@@ -1,0 +1,39 @@
+.carousel img{
+    height: 25vw;
+    margin: auto;
+}
+
+.carousel{
+    background-color: #303030;    
+    padding: 1em;
+    margin: 1em;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-carousel{
+    background-color: transparent !important;
+    border: none !important;
+    align-self: center;
+    color: white;
+    padding: .5em;
+}
+
+.link-button{
+    text-transform: uppercase;
+    color: #fff;
+    padding: .3em;
+    border: 1px solid #330D71;
+    border-radius: 5px;
+    background-color: #330D71;  
+    color:white;
+    text-decoration: none;
+}
+
+.link-button:hover{
+    color:white;
+}

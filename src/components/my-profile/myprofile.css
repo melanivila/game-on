@@ -1,0 +1,55 @@
+.gif-sonic-style {
+    max-width: 90vw;
+    height: 200px;
+    margin: 1rem;
+}
+
+.profile-list {
+    display: flex;    
+    flex-direction: column;    
+    color: #5e25b9;
+    margin-left: 1.5em;
+    list-style: none;
+    line-height: 2em;
+}
+
+.profile-list span{
+  color: #fff;
+}
+
+.profile-data{
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.delete-account-btn {
+    background: #330D71;
+    color: #fff;
+    border: 2px solid #330D71;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    text-decoration: none;
+  }
+
+  .delete-account-btn:hover{
+    color: #ffff;
+    background-color: #240a4e;
+  }
+
+  @media(max-width:768px) {
+    .gif-sonic-style {
+      height: 150px;
+  }
+  }
+
+  @media(max-width:630px) {
+    .gif-sonic-style {
+      display: none;
+  }
+    .profile-list{
+      margin-left: 0;
+      padding: 2em 1em;
+  }
+  }

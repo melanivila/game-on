@@ -1,0 +1,36 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin: 20px;
+}
+
+.form-btn {
+    display: block;
+    background: #330D71 !important;
+    color: #fff;
+    border: 2px solid #330D71 !important;
+    border-radius: 3px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+
+.form-btn:hover {
+    color: #fff !important;
+    background-color: #240a4e !important;  
+}
+
+.success-message{
+    color: rgb(43, 128, 43);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: .5em;
+}
+
+.error-message{
+    color: tomato;
+}

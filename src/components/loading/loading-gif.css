@@ -1,0 +1,42 @@
+.gif-style {
+    max-width: 90vw;
+}
+
+.gif-style img {
+    animation: mover 3s infinite;
+    max-width: 90vw;
+    width: 200px;
+    object-fit: cover;
+}
+
+@keyframes mover {
+    0% { transform: translateX(10vw); }
+    100% { transform: translateX(80vw); }
+}
+
+@media (max-width:1024px){
+    @keyframes mover {
+        0% { transform: translateX(10vw); }
+        100% { transform: translateX(70vw); }
+    }
+}
+
+@media (max-width:767px){
+    @keyframes mover {
+        0% { transform: translateX(10vw); }
+        100% { transform: translateX(60vw); }
+    }
+}
+
+@media (max-width:576px){
+    .gif-style{
+        display: flex;
+        justify-content: center;
+        margin: 0.5em
+    }
+
+    .gif-style img{
+        animation: none
+    }
+
+}
