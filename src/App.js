@@ -29,24 +29,24 @@ function App() {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="Home" element={<Home />}></Route>
-          <Route path="Action" element={<Action />}></Route>
-          <Route path="Adventure" element={<Adventure />}></Route>
-          <Route path="Strategy" element={<Strategy />}></Route>
-          <Route path="Racing" element={<Racing />}></Route>
-          <Route path="Shooter" element={<Shooter />}></Route>
-          <Route path="Simulation" element={<Simulation />}></Route>
+          <Route path="/Home" element={<Home />}></Route>
+          <Route path="/Action" element={<Action />}></Route>
+          <Route path="/Adventure" element={<Adventure />}></Route>
+          <Route path="/Strategy" element={<Strategy />}></Route>
+          <Route path="/Racing" element={<Racing />}></Route>
+          <Route path="/Shooter" element={<Shooter />}></Route>
+          <Route path="/Simulation" element={<Simulation />}></Route>
           <Route path=":slug" element={<Game />}></Route>
-          <Route path="MyProfile" element={<MyProfile />}></Route>
-          <Route path="PC" element={<PC />}></Route>
-          <Route path="PlayStation" element={<PlayStation />}></Route>
-          <Route path="Xbox" element={<XBOX />}></Route>
-          <Route path="Nintendo" element={<Nintendo />}></Route>
-          <Route path="Upcoming" element={<Upcoming />}></Route>
-          <Route path="Wishlist" element={<Wishlist />}></Route>
-          <Route path="SearchGame:name" element={<SearchGame />}></Route>
-          <Route path="Register" element={<Register />}></Route>
-          <Route path="Login" element={<Login />}></Route>
+          <Route path="/MyProfile" element={<MyProfile />}></Route>
+          <Route path="/PC" element={<PC />}></Route>
+          <Route path="/PlayStation" element={<PlayStation />}></Route>
+          <Route path="/Xbox" element={<XBOX />}></Route>
+          <Route path="/Nintendo" element={<Nintendo />}></Route>
+          <Route path="/Upcoming" element={<Upcoming />}></Route>
+          <Route path="/Wishlist" element={<Wishlist />}></Route>
+          <Route path="/SearchGame:name" element={<SearchGame />}></Route>
+          <Route path="/Register" element={<Register />}></Route>
+          <Route path="/Login" element={<Login />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
