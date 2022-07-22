@@ -40,7 +40,6 @@ const LoginForm = () => {
     const response = await axios
       .post("https://game-on-server.herokuapp.com/login", values)
       .catch((err) => {
-        console.log(values);
         if (err && err.response) setError(err.response.data.message);
       });
 

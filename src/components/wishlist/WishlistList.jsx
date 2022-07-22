@@ -26,8 +26,6 @@ const WishlistList = () => {
   }, []);
 
   const handleDelete = async (game) => {
-    console.log(game);
-    console.log(game.slug);
     await axios
       .post(
         `https://game-on-server.herokuapp.com/deleteWishlistItem/${email}/${game.slug}`,
